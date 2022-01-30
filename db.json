@@ -1,21 +1,37 @@
 {
   "nutrition": [
     {
+      "sunday": [
+        {
+          "tag": "breakfast",
+          "dishes": ["2 fette biscottate", "10gr marmellata light", "150ml di latte"]
+        },
+        {
+          "tag": "lunch",
+          "dishes": ["300gr gnocchi di patate", "150gr polpa di pomodoro", "20gr grana", "120gr fettina di vitello"]
+        },
+        {
+          "tag": "dinner",
+          "dishes": ["200gr peperoni in lattina", "300gr pesce spada", "1 cucchiaio EVO"]
+        }
+      ]
+    },
+    {
       "monday": [
         {
-          "meal": "breakfast",
+          "tag": "breakfast",
           "dishes": ["3 fette biscottate","10gr marmellata light", "140gr yougurt magro", "10gr proteine"]
         },
         {
-          "meal": "snack",
+          "tag": "snack",
           "dishes": ["20gr proteine", "15gr mandorle"]
         },
         {
-          "meal": "lunch",
+          "tag": "lunch",
           "dishes": ["120gr farro","150gr pomodorini", "50gr bresaola", "1 cucchiaio EVO"]
         },
         {
-          "meal": "dinner",
+          "tag": "dinner",
           "dishes": ["frittata 2 uova", "300ml albume", "2 sottilette light", "100gr insalata icerberg", "1 cucchiaio EVO"]
         }
       ]
@@ -23,19 +39,19 @@
     {
       "tuesday": [
         {
-          "meal": "breakfast",
+          "tag": "breakfast",
           "dishes": ["3 fette biscottate","10gr marmellata light", "140gr yougurt magro", "10gr proteine"]
         },
         {
-          "meal": "snack",
+          "tag": "snack",
           "dishes": ["20gr proteine", "10gr mandorle" , "1 clementina"]
         },
         {
-          "meal": "lunch",
+          "tag": "lunch",
           "dishes": ["250gr di pollo(petto o straccetti)", "100gr insalata icerberg", "4 gallette o crostini integrali", "1 cucchiaio EVO"]
         },
         {
-          "meal": "dinner",
+          "tag": "dinner",
           "dishes": ["60gr pasta integrale", "300gr cavolo o verza", "40gr di grana", "1 cucchiaio EVO"]
         }
       ]
@@ -43,19 +59,19 @@
     {
       "tuesday": [
         {
-          "meal": "breakfast",
+          "tag": "breakfast",
           "dishes": ["3 fette biscottate","10gr marmellata light", "140gr yougurt magro", "10gr proteine"]
         },
         {
-          "meal": "snack",
+          "tag": "snack",
           "dishes": ["20gr proteine", "10gr mandorle" , "1 clementina"]
         },
         {
-          "meal": "lunch",
+          "tag": "lunch",
           "dishes": ["250gr di pollo(petto o straccetti)", "100gr insalata icerberg", "4 gallette o crostini integrali", "1 cucchiaio EVO"]
         },
         {
-          "meal": "dinner",
+          "tag": "dinner",
           "dishes": ["60gr pasta integrale", "300gr cavolo o verza", "40gr di grana", "1 cucchiaio EVO"]
         }
       ]
@@ -63,19 +79,19 @@
     {
       "thursday": [
         {
-          "meal": "breakfast",
+          "tag": "breakfast",
           "dishes": ["3 fette biscottate","10gr marmellata light", "10gr proteine"]
         },
         {
-          "meal": "snack",
+          "tag": "snack",
           "dishes": ["20gr proteine", "1 banana", "20gr pistacchi"]
         },
         {
-          "meal": "lunch",
+          "tag": "lunch",
           "dishes": ["70gr riso integrale", "200gr di zucca/zucchine/fagiolini", "1 cucchiaio EVO"]
         },
         {
-          "meal": "dinner",
+          "tag": "dinner",
           "dishes": ["350gr merluzzo", "100gr insalata icerberg o 200gr di zucchine/fagiolini", "1 cucchiaio EVO"]
         }
       ]
@@ -83,19 +99,19 @@
     {
       "friday": [
         {
-          "meal": "breakfast",
+          "tag": "breakfast",
           "dishes": ["3 fette biscottate","10gr marmellata light", "10gr proteine"]
         },
         {
-          "meal": "snack",
+          "tag": "snack",
           "dishes": ["20gr proteine", "1 arancia", "10gr mandorle", "1 uovo"]
         },
         {
-          "meal": "lunch",
+          "tag": "lunch",
           "dishes": ["240gr fagioli", "100gr insalata iceberg", "2 scatolette tonno", "4 gallette o 5 crostini integrali", "1 cucchiaio EVO"]
         },
         {
-          "meal": "dinner",
+          "tag": "dinner",
           "dishes": ["250gr di pollo(petto o straccetti)", "200gr zucchine", "1 cucchiaio EVO"]
         }
       ]
@@ -103,32 +119,16 @@
     {
       "saturday": [
         {
-          "meal": "breakfast",
+          "tag": "breakfast",
           "dishes": ["2 fette biscottate", "10gr marmellata light", "150ml di latte"]
         },
         {
-          "meal": "lunch",
+          "tag": "lunch",
           "dishes": ["250gr di lenticchie", "150gr di spinaci", "1 uovo", "1 cucchiaio EVO"]
         },
         {
-          "meal": "dinner",
+          "tag": "dinner",
           "dishes": ["150gr hamburger o 200gr carne magra", "70gr fior di latte", "50gr pane tostato", "oppure serata libera"]
-        }
-      ]
-    },
-    {
-      "sunday": [
-        {
-          "meal": "breakfast",
-          "dishes": ["2 fette biscottate", "10gr marmellata light", "150ml di latte"]
-        },
-        {
-          "meal": "lunch",
-          "dishes": ["300gr gnocchi di patate", "150gr polpa di pomodoro", "20gr grana", "120gr fettina di vitello"]
-        },
-        {
-          "meal": "dinner",
-          "dishes": ["200gr peperoni in lattina", "300gr pesce spada", "1 cucchiaio EVO"]
         }
       ]
     }
