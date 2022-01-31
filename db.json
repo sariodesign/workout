@@ -1,17 +1,25 @@
 {
   "nutrition": [
     {
-      "day": "Domenica",
-      "breakfast": ["2 fette biscottate", "10gr marmellata light", "150ml di latte"],
-      "lunch": ["300gr gnocchi di patate", "150gr polpa di pomodoro", "20gr grana", "120gr fettina di vitello"],
-      "dinner": ["200gr peperoni in lattina", "300gr pesce spada", "1 cucchiaio EVO"]
+      "giorno": "Domenica",
+      "pasti": [
+        {
+          "colazione": ["2 fette biscottate", "10gr marmellata light", "150ml di latte"],
+          "pranzo": ["300gr gnocchi di patate", "150gr polpa di pomodoro", "20gr grana", "120gr fettina di vitello"],
+          "cena": ["200gr peperoni in lattina", "300gr pesce spada", "1 cucchiaio EVO"]
+        }
+      ]
     },
     {
-      "day": "lunedì",
-      "breakfast": ["3 fette biscottate","10gr marmellata light", "140gr yougurt magro", "10gr proteine"],
-      "snack": ["20gr proteine", "15gr mandorle"],
-      "lunch": ["120gr farro","150gr pomodorini", "50gr bresaola", "1 cucchiaio EVO"],
-      "dinner": ["frittata 2 uova", "300ml albume", "2 sottilette light", "100gr insalata icerberg", "1 cucchiaio EVO"]
+      "giorno": "lunedì",
+      "pasti":[
+        {
+          "colazione": ["3 fette biscottate","10gr marmellata light", "140gr yougurt magro", "10gr proteine"],
+          "snack": ["20gr proteine", "15gr mandorle"],
+          "pranzo": ["120gr farro","150gr pomodorini", "50gr bresaola", "1 cucchiaio EVO"],
+          "cena": ["frittata 2 uova", "300ml albume", "2 sottilette light", "100gr insalata icerberg", "1 cucchiaio EVO"]
+        }
+      ]
     }
   ]
 }
