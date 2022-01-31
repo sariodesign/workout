@@ -28,7 +28,10 @@ export default {
   }
 
   .card-day {
+    font-size: 20px;
+    font-weight: 500;
     margin: 0; 
+    text-transform: capitalize;
   }
 
   .card-detail {
@@ -38,6 +41,7 @@ export default {
   }
 
   .card-detail h3 {
+    font-size: 14px;
     font-weight: 500;
     margin: 0 0 4px;
     text-transform: uppercase;
@@ -45,7 +49,13 @@ export default {
 
   .card-detail ul {
     line-height: 30px;
+    list-style: none;
     margin: 0;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 8px;
+  }
+
+  .card-detail li:before {
+    content: '-';
+    margin-right: 8px;
   }
 </style>

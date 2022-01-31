@@ -16,6 +16,50 @@
         "pranzo": ["120gr farro", "150gr pomodorini", "50gr bresaola", "1 cucchiaio EVO"],
         "cena": ["frittata 2 uova", "300ml albume", "2 sottilette light", "100gr insalata icerberg", "1 cucchiaio EVO"]
       }
+    },
+    {
+      "giorno": "martedì",
+      "pasti": {
+        "colazione": ["3 fette biscottate","10gr marmellata light", "140gr yougurt magro", "10gr proteine"],
+        "snack": ["20gr proteine", "10gr mandorle" , "1 clementina"],
+        "pranzo": ["250gr di pollo(petto o straccetti)", "100gr insalata icerberg", "4 gallette o crostini integrali", "1 cucchiaio EVO"],
+        "cena": ["60gr pasta integrale", "300gr cavolo o verza", "40gr di grana", "1 cucchiaio EVO"]
+      }
+    },
+    {
+      "giorno": "mercoledì",
+      "pasti": {
+        "colazione": ["cornetto vuoto", "150ml latte"],
+        "snack": ["yogurt greco bianco", "10gr proteine"],
+        "pranzo": ["120gr bresaole", "80gr ricotta", "5 crostini integrali"],
+        "cena": ["250gr salmone", "100gr iceberg", "1 cucchiaio EVO"]
+      }
+    },
+    {
+      "giorno": "giovedì",
+      "pasti": {
+        "colazione": ["3 fette biscottate","10gr marmellata light", "10gr proteine"],
+        "snack": ["20gr proteine", "1 banana", "20gr pistacchi"],
+        "pranzo": ["70gr riso integrale", "200gr di zucca/zucchine/fagiolini", "1 cucchiaio EVO"],
+        "cena": ["350gr merluzzo", "100gr insalata icerberg o 200gr di zucchine/fagiolini", "1 cucchiaio EVO"]
+      }
+    },
+    {
+      "giorno": "venerdì",
+      "pasti": {
+        "colazione": ["3 fette biscottate","10gr marmellata light", "10gr proteine"],
+        "snack": ["20gr proteine", "1 arancia", "10gr mandorle", "1 uovo"],
+        "pranzo": ["240gr fagioli", "100gr insalata iceberg", "2 scatolette tonno", "4 gallette o 5 crostini integrali", "1 cucchiaio EVO"],
+        "cena": ["250gr di pollo(petto o straccetti)", "200gr zucchine", "1 cucchiaio EVO"]
+      }
+    },
+    {
+      "giorno": "sabato",
+      "pasti": {
+        "colazione": ["2 fette biscottate", "10gr marmellata light", "150ml di latte"],
+        "pranzo": ["250gr di lenticchie", "150gr di spinaci", "1 uovo", "1 cucchiaio EVO"],
+        "cena": ["150gr hamburger o 200gr carne magra", "70gr fior di latte", "50gr pane tostato", "oppure serata libera"]
+      }
     }
   ]
 }

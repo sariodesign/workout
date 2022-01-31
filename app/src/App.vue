@@ -33,7 +33,7 @@ body {
 
 .tab-navigation a {
   color: #2c3e50;
-  font-weight: 700;
+  font-weight: 500;
   padding: 30px;
   text-align: center;
   text-decoration: none;
