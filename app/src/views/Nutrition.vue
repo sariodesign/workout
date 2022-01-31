@@ -1,16 +1,15 @@
 <template>
   <div class="nutrition">
-    <MealCard/>
+    <MealCard v-for="(meal, index) in meals" :key="index" :meal="meal" />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
 import MealCard from "@/components/MealCard.vue";
-import axios from 'axios';
+import NutritionService from "@/services/NutritionService.js";
 
 export default {
-  name: "nutrition",
+  name: "Nutrition",
   components: {
     MealCard,
   },
@@ -20,15 +19,10 @@ export default {
     }
   },
   created() {
-    const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-    let day = new Date();
-    let today = weekday[day.getDay()].toLowerCase();
-    console.log(today);
-    axios.get('http://my-json-server.typicode.com/sariodesign/workout/nutrition')
+    NutritionService.getNutrition()
       .then(response => {
-        //this.meals = response.data
-        console.log('[LOAD RESPONSE]')
-        console.log(response.data);
+        this.meals = response.data;
+        console.log('[Meal response]', this.meals);
       })
       .catch(error => {
         console.log('[ERROR]', error)
@@ -36,3 +30,9 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.nutrition {
+  padding: 0 15px;
+}
+</style>
