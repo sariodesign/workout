@@ -37,6 +37,7 @@ body {
   padding: 30px;
   text-align: center;
   text-decoration: none;
+  text-transform: uppercase;
   width: 100%;
 }
 

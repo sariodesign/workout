@@ -29,21 +29,26 @@ export default {
 
   .card-day {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     margin: 0; 
-    text-transform: capitalize;
+    text-transform: uppercase;
+    text-align: center;
   }
 
   .card-detail {
+    padding: 20px;
     border-radius: 20px;
-    box-shadow: 0 2px 12px -4px rgb(0,0,0,.3);
-    padding: 12px;
+    box-shadow: 0 2px 20px -10px rgb(0 0 0 / 35%);
+    background-color: #fff;
   }
 
   .card-detail h3 {
+    color: #42b983;
+    display: inline-block;
     font-size: 14px;
     font-weight: 500;
     margin: 0 0 4px;
+    padding: 4px 8px;
     text-transform: uppercase;
   }
 
