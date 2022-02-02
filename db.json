@@ -61,5 +61,53 @@
         "cena": ["150gr hamburger o 200gr carne magra", "70gr fior di latte", "50gr pane tostato", "oppure serata libera"]
       }
     }
+  ],
+  "exercise": [
+    {
+      "giorno":"Prima giornata",
+      "esercizi": {
+        "pressa": "5 serie da 6 ripetizioni - recupero: 1'30\"",
+        "panca piana": "5 serie da 6 ripetizioni - recupero: 1'30\"",
+        "rematore": "4 serie da 7 ripetizioni - recupero: 2' ",
+        "shoulder press": "4 serie da 7 ripetizioni - recupero: 2' ",
+        "curl": "4 serie da 7 ripetizioni - recupero: 1'30\" ",
+        "french press": "4 serie da 7 ripetizioni - recupero: 1'30\" ",
+        "calf": "3 serie da 20 ripetizioni - 1'"
+      }
+    },
+    {
+      "giorno":"Seconda giornata",
+      "esercizi": {
+        "rematore": "5 serie da 6 ripetizioni - recupero: 1' ",
+        "shoulder press": "5 serie da 6 ripetizioni - recupero: 1'30\" ",
+        "pressa": "4 serie da 7 ripetizioni - recupero: 2'",
+        "panca piana": "4 serie da 7 ripetizioni - recupero: 2'",
+        "curl": "3 serie da 12 ripetizioni - recupero: 1' ",
+        "french press": "3 serie da 12 ripetizioni - recupero: 1'30\" ",
+        "crunch": "3 serie da 20 ripetizioni - 1'"
+      }
+    },
+    {
+      "giorno":"Terza giornata",
+      "esercizi": {
+        "pressa": "10 serie da 3 ripetizioni - recupero: 45\" ",
+        "leg curl": "3 serie da 12 ripetizioni - recupero: 1' ",
+        "panca piana": "10 serie da 3 ripetizioni - recupero: 45\" ",
+        "chest oress": "3 serie da 12 ripetizioni - recupero: 1' ",
+        "rematore": "10 serie da 3 ripetizioni - recupero: 45\" ",
+        "lat machine": "3 serie da 12 ripetizioni - recupero: 1' "
+      }
+    },
+    {
+      "giorno":"Quarta giornata",
+      "esercizi": {
+        "shoulder press": "10 serie da 3 ripetizioni - recupero: 45\" ",
+        "alzate laterali": "3 serie da 12 ripetizioni - recupero: 1' ",
+        "curl": "3 serie da 10 ripetizioni - recupero: 1' ",
+        "push diwn corda": "3 serie da 10 ripetizioni - recupero: 1' ",
+        "crunch": "3 serie da 20 ripetizioni - 1'",
+        "tapis roulant": "pendenza 4 e velocità 6"
+      }
+    }
   ]
 }
