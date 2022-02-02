@@ -2,7 +2,7 @@
   "nutrition": [
     {
       "giorno": "domenica",
-      "pasti": {
+      "lista": {
         "colazione": ["2 fette biscottate", "10gr marmellata light", "150ml di latte"],
         "pranzo": ["300gr gnocchi di patate", "150gr polpa di pomodoro", "20gr grana", "120gr fettina di vitello"],
         "cena": ["200gr peperoni in lattina", "300gr pesce spada", "1 cucchiaio EVO"]
@@ -10,7 +10,7 @@
     },
     {
       "giorno": "lunedì",
-      "pasti": {
+      "lista": {
         "colazione": ["3 fette biscottate", "10gr marmellata light", "140gr yougurt magro", "10gr proteine"],
         "snack": ["20gr proteine", "15gr mandorle"],
         "pranzo": ["120gr farro", "150gr pomodorini", "50gr bresaola", "1 cucchiaio EVO"],
@@ -19,7 +19,7 @@
     },
     {
       "giorno": "martedì",
-      "pasti": {
+      "lista": {
         "colazione": ["3 fette biscottate","10gr marmellata light", "140gr yougurt magro", "10gr proteine"],
         "snack": ["20gr proteine", "10gr mandorle" , "1 clementina"],
         "pranzo": ["250gr di pollo(petto o straccetti)", "100gr insalata icerberg", "4 gallette o crostini integrali", "1 cucchiaio EVO"],
@@ -28,7 +28,7 @@
     },
     {
       "giorno": "mercoledì",
-      "pasti": {
+      "lista": {
         "colazione": ["cornetto vuoto", "150ml latte"],
         "snack": ["yogurt greco bianco", "10gr proteine"],
         "pranzo": ["120gr bresaole", "80gr ricotta", "5 crostini integrali"],
@@ -37,7 +37,7 @@
     },
     {
       "giorno": "giovedì",
-      "pasti": {
+      "lista": {
         "colazione": ["3 fette biscottate","10gr marmellata light", "10gr proteine"],
         "snack": ["20gr proteine", "1 banana", "20gr pistacchi"],
         "pranzo": ["70gr riso integrale", "200gr di zucca/zucchine/fagiolini", "1 cucchiaio EVO"],
@@ -46,7 +46,7 @@
     },
     {
       "giorno": "venerdì",
-      "pasti": {
+      "lista": {
         "colazione": ["3 fette biscottate","10gr marmellata light", "10gr proteine"],
         "snack": ["20gr proteine", "1 arancia", "10gr mandorle", "1 uovo"],
         "pranzo": ["240gr fagioli", "100gr insalata iceberg", "2 scatolette tonno", "4 gallette o 5 crostini integrali", "1 cucchiaio EVO"],
@@ -55,7 +55,7 @@
     },
     {
       "giorno": "sabato",
-      "pasti": {
+      "lista": {
         "colazione": ["2 fette biscottate", "10gr marmellata light", "150ml di latte"],
         "pranzo": ["250gr di lenticchie", "150gr di spinaci", "1 uovo", "1 cucchiaio EVO"],
         "cena": ["150gr hamburger o 200gr carne magra", "70gr fior di latte", "50gr pane tostato", "oppure serata libera"]
@@ -65,7 +65,7 @@
   "exercise": [
     {
       "giorno":"Prima giornata",
-      "esercizi": {
+      "lista": {
         "pressa": "5 serie da 6 ripetizioni - recupero: 1'30\"",
         "panca piana": "5 serie da 6 ripetizioni - recupero: 1'30\"",
         "rematore": "4 serie da 7 ripetizioni - recupero: 2' ",
@@ -77,7 +77,7 @@
     },
     {
       "giorno":"Seconda giornata",
-      "esercizi": {
+      "lista": {
         "rematore": "5 serie da 6 ripetizioni - recupero: 1' ",
         "shoulder press": "5 serie da 6 ripetizioni - recupero: 1'30\" ",
         "pressa": "4 serie da 7 ripetizioni - recupero: 2'",
@@ -89,7 +89,7 @@
     },
     {
       "giorno":"Terza giornata",
-      "esercizi": {
+      "lista": {
         "pressa": "10 serie da 3 ripetizioni - recupero: 45\" ",
         "leg curl": "3 serie da 12 ripetizioni - recupero: 1' ",
         "panca piana": "10 serie da 3 ripetizioni - recupero: 45\" ",
@@ -100,7 +100,7 @@
     },
     {
       "giorno":"Quarta giornata",
-      "esercizi": {
+      "lista": {
         "shoulder press": "10 serie da 3 ripetizioni - recupero: 45\" ",
         "alzate laterali": "3 serie da 12 ripetizioni - recupero: 1' ",
         "curl": "3 serie da 10 ripetizioni - recupero: 1' ",
