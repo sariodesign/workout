@@ -1,7 +1,7 @@
 <template>
   <div class="nutrition">
     <Calendar />
-    <Card v-for="(meal, index) in meals" :key="index" :content="meal" />
+    <Card v-for="(meal, index) in meals" :key="index" :content="meal" :isList=true />
   </div>
 </template>
 

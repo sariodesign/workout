@@ -3,9 +3,13 @@
       <h2 class="card-title">{{ content.giorno }}</h2>
       <div class="card-detail" v-for="(value, name, index) in content.lista" :key="index">
         <h3>{{ name }}</h3>
-        <ul>
+        <ul v-if="isList">
           <li v-for="(item, index) in value" :key="index">{{ item }}</li>
         </ul>
+        <div v-else>
+          <p>{{ name }}: {{ value.ripetizioni }}</p>
+          <span>{{ value.recupero }}</span>
+        </div>
       </div>
     </div>
 </template>
@@ -14,7 +18,8 @@
 export default {
   name: 'Card',
   props: {
-    content: Object
+    content: Object,
+    isList: Boolean
   }
 };
 </script>
