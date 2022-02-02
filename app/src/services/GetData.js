@@ -13,7 +13,7 @@ const apiClient = axios.create({
     getNutrition() {
       return apiClient.get('/nutrition')
     },
-    getNutritionDay(day) {
-      return apiClient.get('/nutrition/' + day)
+    getExercise() {
+      return apiClient.get('/exercise')
     }
   }

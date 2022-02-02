@@ -1,7 +1,7 @@
 <template>
     <div class="card">
-      <h2 class="card-day">{{ meal.giorno }}</h2>
-      <div class="card-detail" v-for="(value, name, index) in meal.pasti" :key="index">
+      <h2 class="card-title">{{ content.giorno }}</h2>
+      <div class="card-detail" v-for="(value, name, index) in content.lista" :key="index">
         <h3>{{ name }}</h3>
         <ul>
           <li v-for="(item, index) in value" :key="index">{{ item }}</li>
@@ -12,9 +12,9 @@
 
 <script>
 export default {
-  name: 'MealCard',
+  name: 'Card',
   props: {
-    meal: Object
+    content: Object
   }
 };
 </script>
@@ -27,7 +27,7 @@ export default {
     margin-bottom: 40px;
   }
 
-  .card-day {
+  .card-title {
     font-size: 20px;
     font-weight: 400;
     margin: 0; 
