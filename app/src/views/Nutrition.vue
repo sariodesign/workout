@@ -42,5 +42,6 @@ export default {
   background-repeat: no-repeat;
   background-size: 80px;
   min-height: 100vh;
+  overflow: hidden;
 }
 </style>
