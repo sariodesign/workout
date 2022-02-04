@@ -42,6 +42,5 @@ export default {
   background-repeat: no-repeat;
   background-size: 80px;
   min-height: 100vh;
-  padding: 0 15px;
 }
 </style>

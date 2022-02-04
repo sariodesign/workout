@@ -7,8 +7,8 @@
           <li v-for="(item, index) in value" :key="index">{{ item }}</li>
         </ul>
         <div v-else>
-          <p>{{ name }}: {{ value.ripetizioni }}</p>
-          <span>{{ value.recupero }}</span>
+          <p class="card-text">ripetizioni: {{ value.ripetizioni }}</p>
+          <span class="card-text-small">recupero: {{ value.recupero }}</span>
         </div>
       </div>
     </div>
@@ -29,7 +29,8 @@ export default {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-bottom: 40px;
+    margin: 0 auto 40px;
+    width: calc(100% - 30px);
   }
 
   .card-title {
@@ -53,7 +54,6 @@ export default {
     font-size: 14px;
     font-weight: 500;
     margin: 0 0 4px;
-    padding: 4px 8px;
     text-transform: uppercase;
   }
 
@@ -67,5 +67,17 @@ export default {
   .card-detail li:before {
     content: '-';
     margin-right: 8px;
+  }
+
+  .card-text {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 4px;
+  }
+
+  .card-text-small {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
   }
 </style>

@@ -68,31 +68,31 @@
       "lista": {
         "pressa": {
           "ripetizioni": "5 serie da 6",
-          "recupero": "1'30\""
+          "recupero": "1 Min 30 Sec"
         },
         "panca piana": {
           "ripetizioni": "5 serie da 6",
-          "recupero": "1'30\""
+          "recupero": "1 Min 30 Sec"
         },
         "rematore": {
           "ripetizioni": "4 serie da 7",
-          "recupero": "2'"
+          "recupero": "2 Min"
         },
         "shoulder press": {
           "ripetizioni": "4 serie da 7",
-          "recupero": "2'"
+          "recupero": "2 Min"
         },
         "curl": {
           "ripetizioni": "4 serie da 7",
-          "recupero": "1'30\" "
+          "recupero": "1 Min 30 Sec"
         },
         "french press": {
           "ripetizioni": "4 serie da 7",
-          "recupero": "1'30\" "
+          "recupero": "1 Min 30 Sec"
         },
         "calf": {
           "ripetizioni": "3 serie da 20",
-          "recupero": "1'"
+          "recupero": "1 Min"
         }
       }
     },
@@ -101,31 +101,31 @@
       "lista": {
         "rematore": {
           "ripetizioni":"5 serie da 6",
-          "recupero": "1' "
+          "recupero": "1 Min"
         },
         "shoulder press": {
           "ripetizioni":"5 serie da 6",
-          "recupero": "1'30\" "
+          "recupero": "1 Min 30 Sec"
         },
         "pressa": {
           "ripetizioni":"4 serie da 7",
-          "recupero": "2'"
+          "recupero": "2 Min"
         },
         "panca piana": {
           "ripetizioni":"4 serie da 7",
-          "recupero": "2'"
+          "recupero": "2 Min"
         },
         "curl": {
           "ripetizioni":"3 serie da 12",
-          "recupero": "1'"
+          "recupero": "1 Min"
         },
         "french press": {
           "ripetizioni":"3 serie da 12",
-          "recupero": "1'30\""
+          "recupero": "1 Min 30 Sec"
         },
         "crunch": {
           "ripetizioni":"3 serie da 20",
-          "recupero": "1'"
+          "recupero": "1 Min"
         }
       }
     },
@@ -134,27 +134,27 @@
       "lista": {
         "pressa": {
           "ripetizioni": "10 serie da 3",
-          "recupero": "45\""
+          "recupero": "45 Sec"
         },
         "leg curl": {
           "ripetizioni": "3 serie da 12",
-          "recupero": "1' "
+          "recupero": "1 Min"
         },
         "panca piana": {
           "ripetizioni": "10 serie da 3", 
-          "recupero": "45\""
+          "recupero": "45 Sec"
         },
         "chest oress": {
           "ripetizioni": "3 serie da 12",
-          "recupero": "1'"
+          "recupero": "1 Min"
         },
         "rematore": {
           "ripetizioni": "10 serie da 3",
-          "recupero": "45\""
+          "recupero": "45 Sec"
         },
         "lat machine": {
           "ripetizioni": "3 serie da 12",
-          "recupero": "1'"
+          "recupero": "1 Min"
         }
       }
     },
@@ -163,23 +163,23 @@
       "lista": {
         "shoulder press": {
           "ripetizioni": "10 serie da 3",
-          "recupero": "45\""
+          "recupero": "45 Sec"
         },
         "alzate laterali": {
           "ripetizioni": "3 serie da 12",
-          "recupero": "1'"
+          "recupero": "1 Min"
         },
         "curl": {
           "ripetizioni": "3 serie da 10",
-          "recupero": "1'"
+          "recupero": "1 Min "
         },
         "push diwn corda": {
           "ripetizioni": "3 serie da 10",
-          "recupero": "1'"
+          "recupero": "1 Min"
         },
         "crunch": {
           "ripetizioni": "3 serie da 20",
-          "recupero": "1'"
+          "recupero": "1 Min"
         },
         "tapis roulant": "pendenza 4 e velocità 6"
       }
