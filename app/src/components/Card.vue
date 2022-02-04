@@ -1,16 +1,18 @@
 <template>
     <div class="card-container">
       <h2 class="card-title">{{ content.giorno }}</h2>
-      <div class="card-list">
+      <div class="card-list" v-if="isList">
         <div class="card-detail" v-for="(value, name, index) in content.lista" :key="index">
           <h3>{{ name }}</h3>
-          <ul v-if="isList">
+          <ul>
             <li v-for="(item, index) in value" :key="index">{{ item }}</li>
           </ul>
-          <div v-else>
-            <p>{{ name }}: {{ value.ripetizioni }}</p>
-            <span>{{ value.recupero }}</span>
-          </div>
+        </div>
+      </div>
+      <div class="card-item" v-else>
+        <div class="card-detail" v-for="(value, name, index) in content.lista" :key="index">
+          <p>{{ name }}: {{ value.ripetizioni }}</p>
+          <span>{{ value.recupero }}</span>
         </div>
       </div>
     </div>
@@ -53,8 +55,10 @@ export default {
   }
 
   .card-title {
-    padding-left: 20px;
+    font-weight: 500;
     margin: 0;
+    padding-left: 20px;
+    text-transform: capitalize;
   }
 
   .card-detail {

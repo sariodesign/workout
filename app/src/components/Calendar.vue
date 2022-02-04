@@ -1,6 +1,6 @@
 <template>
     <div class="calendar">
-      <div class="calendar-day" v-for="(day, index) in week" :key="index" @click="select">{{ day }}</div>
+      <div class="calendar-day" v-for="(day, index) in week" :key="index" @click="select" :data-select="index" :class="{ 'selected': index === today }">{{ day }}</div>
     </div>
 </template>
 
@@ -8,18 +8,22 @@
 export default {
   name: 'Calendar',
   data() {
-    let week = ['Lun', 'Mar', 'Mer', 'Gio', 'Ven', 'Sab', 'Dom'];
+    let date = new Date();
+    let week = ['Dom', 'Lun', 'Mar', 'Mer', 'Gio', 'Ven', 'Sab'];
+    let today = date.getDay();
     return {
-      week
+      week,
+      today
     }
   },
   methods: {
     select(e) {
+      let daySelect = e.target.dataset.select;
       let dayNode = document.querySelectorAll('.calendar-day');
+      let listNode = document.querySelectorAll('.card-container');
       dayNode.forEach( day => day.classList.remove('selected'));
-      //element.scrollIntoView();
       e.target.classList.add('selected');
-      console.log(dayNode);
+      listNode[daySelect].scrollIntoView({behavior: "smooth", block: "center"});
     }
   }
 };
@@ -27,7 +31,7 @@ export default {
 
 <style scoped>
   .calendar {
-    background-color: #fff;
+    background-color: rgba(255,255,255,.85);
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
