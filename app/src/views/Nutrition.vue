@@ -17,8 +17,6 @@ export default {
     Card
   },
   data() {
-    //let date = new Date();
-    //let today = date.getDay();
     return {
       meals: null
     }

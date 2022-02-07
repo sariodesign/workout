@@ -1,5 +1,5 @@
 <template>
-  <div class="exercise" :class="{'is-loading' : loading}">
+  <div class="exercise">
     <Card v-for="(exercise, index) in exercises" :key="index" :content="exercise" />
   </div>
 </template>
@@ -22,7 +22,6 @@ export default {
     GetData.getExercise()
       .then(response => {
         this.exercises = response.data;
-        console.log('[Meal response]', this.exercises);
       })
       .catch(error => {
         console.log('[ERROR]', error)

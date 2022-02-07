@@ -46,6 +46,12 @@ export default {
     scrollbar-width: none;
   }
 
+  .card-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
   .card {
     font-size: 20px;
     font-weight: 400;
@@ -79,6 +85,15 @@ export default {
     text-transform: uppercase;
   }
 
+  .card-detail p {
+    margin: 0 0 8px;
+  }
+
+  .card-detail span {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
   .card-detail ul {
     line-height: 30px;
     list-style: none;
@@ -89,6 +104,15 @@ export default {
   .card-detail li:before {
     content: '-';
     margin-right: 8px;
+  }
+
+  .card-item .card-detail {
+    border-bottom: 1px solid #777;
+    border-radius: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
   }
 
   .card-text {
