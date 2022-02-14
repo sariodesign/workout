@@ -181,7 +181,9 @@
           "ripetizioni": "3 serie da 20",
           "recupero": "1 Min"
         },
-        "tapis roulant": "pendenza 4 e velocità 6"
+        "tapis roulant": {
+          "ripetizioni": "velocità 6 e pendenza 4"
+        }   
       }
     }
   ]
