@@ -11,8 +11,13 @@
       </div>
       <div class="card-item" v-else>
         <div class="card-detail" v-for="(value, name, index) in content.lista" :key="index">
-          <p>{{ name }}: {{ value.ripetizioni }}</p>
-          <span>{{ value.recupero }}</span>
+          <div class="card-detail-exercise">
+            <h2 class="card-exercise-name">{{ name }}</h2>
+            <div class="card-exercise-detail">
+              <span class="card-exercise-repeat">{{ value.ripetizioni }}</span>
+              <span class="card-exercise-time">{{ value.recupero }}</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -67,6 +72,10 @@ export default {
     text-transform: capitalize;
   }
 
+  .exercise .card-title {
+    padding-left: 10px;
+  }
+
   .card-detail {
     border-radius: 20px;
     box-shadow: 0 2px 20px -10px rgb(0 0 0 / 35%);
@@ -83,15 +92,6 @@ export default {
     font-weight: 500;
     margin: 0 0 4px;
     text-transform: uppercase;
-  }
-
-  .card-detail p {
-    margin: 0 0 8px;
-  }
-
-  .card-detail span {
-    font-size: 12px;
-    font-weight: 600;
   }
 
   .card-detail ul {
@@ -113,6 +113,31 @@ export default {
     box-sizing: border-box;
     padding: 10px;
     width: 100%;
+  }
+
+  .card-detail-exercise {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-exercise-detail {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+
+  .card-exercise-name {
+    color: #42b983;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .card-exercise-time {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 500;
   }
 
   .card-text {
