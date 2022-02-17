@@ -1,6 +1,10 @@
 <template>
   <div class="exercise">
-    <Card v-for="(exercise, index) in exercises" :key="index" :content="exercise" />
+    <Card
+      v-for="(exercise, index) in exercises"
+      :key="index"
+      :content="exercise"
+    />
   </div>
 </template>
 
@@ -11,22 +15,22 @@ import GetData from "@/services/GetData.js";
 export default {
   name: "Exercise",
   components: {
-    Card
+    Card,
   },
   data() {
     return {
-      exercises: null
-    }
+      exercises: null,
+    };
   },
   created() {
     GetData.getExercise()
-      .then(response => {
+      .then((response) => {
         this.exercises = response.data;
       })
-      .catch(error => {
-        console.log('[ERROR]', error)
-      })
-  }
+      .catch((error) => {
+        console.log("[ERROR]", error);
+      });
+  },
 };
 </script>
 

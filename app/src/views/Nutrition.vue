@@ -1,7 +1,12 @@
 <template>
   <div class="nutrition">
     <Calendar />
-    <Card v-for="(meal, index) in meals" :key="index" :content="meal" :isList=true />
+    <Card
+      v-for="(meal, index) in meals"
+      :key="index"
+      :content="meal"
+      :isList="true"
+    />
   </div>
 </template>
 
@@ -14,22 +19,22 @@ export default {
   name: "Nutrition",
   components: {
     Calendar,
-    Card
+    Card,
   },
   data() {
     return {
-      meals: null
-    }
+      meals: null,
+    };
   },
   created() {
     GetData.getNutrition()
-      .then(response => {
+      .then((response) => {
         this.meals = response.data;
       })
-      .catch(error => {
-        console.log('[ERROR]', error)
-      })
-  }
+      .catch((error) => {
+        console.log("[ERROR]", error);
+      });
+  },
 };
 </script>
 
