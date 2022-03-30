@@ -26,6 +26,7 @@
             <span class="card-exercise-time">{{ value.recupero }}</span>
           </div>
         </div>
+        <div class="card-detail-weight">{{ value.peso }}</div>
       </div>
     </div>
   </div>

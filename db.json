@@ -68,31 +68,38 @@
       "lista": {
         "pressa": {
           "ripetizioni": "5 serie da 6",
-          "recupero": "1 Min 30 Sec"
+          "recupero": "1 Min 30 Sec",
+          "peso":"Max 47kg"
         },
         "panca piana": {
           "ripetizioni": "5 serie da 6",
-          "recupero": "1 Min 30 Sec"
+          "recupero": "1 Min 30 Sec",
+          "peso": "Max 25kg(12.5kg x 2)"
         },
         "rematore": {
           "ripetizioni": "4 serie da 7",
-          "recupero": "2 Min"
+          "recupero": "2 Min",
+          "peso": "Max 20kg"
         },
         "shoulder press": {
           "ripetizioni": "4 serie da 7",
-          "recupero": "2 Min"
+          "recupero": "2 Min",
+          "peso": "Max 30/35kg"
         },
         "curl": {
           "ripetizioni": "4 serie da 7",
-          "recupero": "1 Min 30 Sec"
+          "recupero": "1 Min 30 Sec",
+          "peso": "Max 10kg(5kg x 2)"
         },
         "french press": {
           "ripetizioni": "4 serie da 7",
-          "recupero": "1 Min 30 Sec"
+          "recupero": "1 Min 30 Sec",
+          "peso": "Max 10kg(5kg x 2)"
         },
         "calf": {
           "ripetizioni": "3 serie da 20",
-          "recupero": "1 Min"
+          "recupero": "1 Min",
+          "peso": "Max 60kg"
         }
       }
     },
@@ -101,7 +108,8 @@
       "lista": {
         "rematore": {
           "ripetizioni":"5 serie da 6",
-          "recupero": "1 Min"
+          "recupero": "1 Min",
+          "peso": "Max 20kg"
         },
         "shoulder press": {
           "ripetizioni":"5 serie da 6",
@@ -109,19 +117,23 @@
         },
         "pressa": {
           "ripetizioni":"4 serie da 7",
-          "recupero": "2 Min"
+          "recupero": "2 Min",
+          "peso":"Max 47kg"
         },
         "panca piana": {
           "ripetizioni":"4 serie da 7",
-          "recupero": "2 Min"
+          "recupero": "2 Min",
+          "peso": "Max 25kg(12.5kg x 2)"
         },
         "curl": {
           "ripetizioni":"3 serie da 12",
-          "recupero": "1 Min"
+          "recupero": "1 Min",
+          "peso": "Max 10kg(5kg x 2)"
         },
         "french press": {
           "ripetizioni":"3 serie da 12",
-          "recupero": "1 Min 30 Sec"
+          "recupero": "1 Min 30 Sec",
+          "peso": "Max 10kg(5kg x 2)"
         },
         "crunch": {
           "ripetizioni":"3 serie da 20",
@@ -133,28 +145,34 @@
       "giorno":"Terza giornata",
       "lista": {
         "pressa": {
-          "ripetizioni": "10 serie da 3",
-          "recupero": "45 Sec"
+          "ripetizioni": "3 serie da 10",
+          "recupero": "45 Sec",
+          "peso":"Max 47kg"
         },
         "leg curl": {
           "ripetizioni": "3 serie da 12",
-          "recupero": "1 Min"
+          "recupero": "1 Min",
+          "peso": "Max 20kg"
         },
         "panca piana": {
-          "ripetizioni": "10 serie da 3", 
-          "recupero": "45 Sec"
+          "ripetizioni": "3 serie da 10", 
+          "recupero": "45 Sec",
+          "peso": "Max 25kg(12.5kg x 2)"
         },
         "chest press": {
           "ripetizioni": "3 serie da 12",
-          "recupero": "1 Min"
+          "recupero": "1 Min",
+          "peso": "Max 30kg"
         },
         "rematore": {
-          "ripetizioni": "10 serie da 3",
-          "recupero": "45 Sec"
+          "ripetizioni": "3 serie da 10",
+          "recupero": "45 Sec",
+          "peso": "Max 20kg"
         },
         "lat machine": {
           "ripetizioni": "3 serie da 12",
-          "recupero": "1 Min"
+          "recupero": "1 Min",
+          "peso": "Max 30kg"
         }
       }
     },
@@ -163,19 +181,23 @@
       "lista": {
         "shoulder press": {
           "ripetizioni": "10 serie da 3",
-          "recupero": "45 Sec"
+          "recupero": "45 Sec",
+          "peso": "Max 30kg"
         },
         "alzate laterali": {
           "ripetizioni": "3 serie da 12",
-          "recupero": "1 Min"
+          "recupero": "1 Min",
+          "peso": "Max 10kg(5kg x 2)"
         },
         "curl": {
           "ripetizioni": "3 serie da 10",
-          "recupero": "1 Min "
+          "recupero": "1 Min",
+          "peso": "Max 10kg(5kg x 2)"
         },
         "push down corda": {
           "ripetizioni": "3 serie da 10",
-          "recupero": "1 Min"
+          "recupero": "1 Min",
+          "peso": "Max 40kg"
         },
         "crunch": {
           "ripetizioni": "3 serie da 20",
