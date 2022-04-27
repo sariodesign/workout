@@ -66,40 +66,20 @@
     {
       "giorno":"Prima giornata",
       "lista": {
-        "pressa": {
+        "pressa / panca piana": {
           "ripetizioni": "5 serie da 6",
-          "recupero": "1 Min 30 Sec",
-          "peso":"Max 47kg"
-        },
-        "panca piana": {
-          "ripetizioni": "5 serie da 6",
-          "recupero": "1 Min 30 Sec",
-          "peso": "Max 25kg(12.5kg x 2)"
-        },
-        "rematore": {
-          "ripetizioni": "4 serie da 7",
-          "recupero": "2 Min",
-          "peso": "Max 20kg"
-        },
-        "shoulder press": {
-          "ripetizioni": "4 serie da 7",
-          "recupero": "2 Min",
-          "peso": "Max 30/35kg"
-        },
-        "curl": {
-          "ripetizioni": "4 serie da 7",
-          "recupero": "1 Min 30 Sec",
-          "peso": "Max 10kg(5kg x 2)"
-        },
-        "french press": {
-          "ripetizioni": "4 serie da 7",
-          "recupero": "1 Min 30 Sec",
-          "peso": "Max 10kg(5kg x 2)"
-        },
-        "calf": {
-          "ripetizioni": "3 serie da 20",
           "recupero": "1 Min",
-          "peso": "Max 60kg"
+          "peso":"Max 68kg / 25kg"
+        },
+        "rematore / military press": {
+          "ripetizioni": "5 serie da 6",
+          "recupero": "1 Min",
+          "peso": "Max 20kg / 10kg"
+        },
+        "curl manubri / push down corda": {
+          "ripetizioni": "3 serie da 6",
+          "recupero": "1 Min",
+          "peso": "Max 10kg / 40kg"
         }
       }
     },
