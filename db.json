@@ -86,106 +86,71 @@
     {
       "giorno":"Seconda giornata",
       "lista": {
-        "rematore": {
-          "ripetizioni":"5 serie da 6",
-          "recupero": "1 Min",
-          "peso": "Max 20kg"
-        },
-        "shoulder press": {
-          "ripetizioni":"5 serie da 6",
-          "recupero": "1 Min 30 Sec"
-        },
-        "pressa": {
-          "ripetizioni":"4 serie da 7",
-          "recupero": "2 Min",
-          "peso":"Max 47kg"
-        },
-        "panca piana": {
-          "ripetizioni":"4 serie da 7",
-          "recupero": "2 Min",
-          "peso": "Max 25kg(12.5kg x 2)"
-        },
-        "curl": {
-          "ripetizioni":"3 serie da 12",
-          "recupero": "1 Min",
-          "peso": "Max 10kg(5kg x 2)"
-        },
-        "french press": {
-          "ripetizioni":"3 serie da 12",
+        "spinte manubri panca / row machine": {
+          "ripetizioni":"5 serie da 8,6,6,4,4",
           "recupero": "1 Min 30 Sec",
-          "peso": "Max 10kg(5kg x 2)"
+          "peso": "Incrementale"
         },
-        "crunch": {
-          "ripetizioni":"3 serie da 20",
-          "recupero": "1 Min"
+        "chest press": {
+          "ripetizioni":"10 serie da 3 EMOM",
+          "peso": "Max 30kg"
+        },
+        "lat machine": {
+          "ripetizioni":"10 serie da 3 EMOM",
+          "peso": "Max 30kg"
+        },
+        "pull down / aperure crossover": {
+          "ripetizioni":"3 serie da 6",
+          "recupero": "1 Min",
+          "peso":"Da definire"
         }
       }
     },
     {
       "giorno":"Terza giornata",
       "lista": {
-        "pressa": {
-          "ripetizioni": "3 serie da 10",
-          "recupero": "45 Sec",
-          "peso":"Max 47kg"
-        },
-        "leg curl": {
-          "ripetizioni": "3 serie da 12",
+        "leg curl / leg extention": {
+          "ripetizioni": "3 serie da 6",
           "recupero": "1 Min",
           "peso": "Max 20kg"
         },
-        "panca piana": {
-          "ripetizioni": "3 serie da 10", 
-          "recupero": "45 Sec",
-          "peso": "Max 25kg(12.5kg x 2)"
+        "pressa / panca piana": {
+          "ripetizioni": "5 serie da 8,6,6,4,4", 
+          "recupero": "1 Min e 30 Sec",
+          "peso": "Max 66kg / 25kg"
         },
-        "chest press": {
-          "ripetizioni": "3 serie da 12",
-          "recupero": "1 Min",
-          "peso": "Max 30kg"
-        },
-        "rematore": {
-          "ripetizioni": "3 serie da 10",
-          "recupero": "45 Sec",
-          "peso": "Max 20kg"
-        },
-        "lat machine": {
-          "ripetizioni": "3 serie da 12",
-          "recupero": "1 Min",
-          "peso": "Max 30kg"
+        "hack squat": {
+          "ripetizioni": "10 serie da 3 EMOM",
+          "peso": "Da definire"
         }
       }
     },
     {
       "giorno":"Quarta giornata",
       "lista": {
-        "shoulder press": {
+        "alzate laterali": {
+          "ripetizioni": "3 serie da 8",
+          "recupero": "1 Min",
+          "peso": "Max 10kg(5kg x 2)"
+        },
+        "military press / curl": {
           "ripetizioni": "10 serie da 3",
-          "recupero": "45 Sec",
+          "recupero": "1 Min 30 Sec",
           "peso": "Max 30kg"
         },
-        "alzate laterali": {
-          "ripetizioni": "3 serie da 12",
-          "recupero": "1 Min",
-          "peso": "Max 10kg(5kg x 2)"
+        "shoulder press": {
+          "ripetizioni": "10 serie da 3 EMOM",
+          "peso": "Max 30kg"
         },
-        "curl": {
-          "ripetizioni": "3 serie da 10",
+        "hammer curl": {
+          "ripetizioni": "10 serie da 3 EMOM",
           "recupero": "1 Min",
-          "peso": "Max 10kg(5kg x 2)"
+          "peso": "Da definire"
         },
         "push down corda": {
-          "ripetizioni": "3 serie da 10",
-          "recupero": "1 Min",
-          "peso": "Max 40kg"
-        },
-        "crunch": {
-          "ripetizioni": "3 serie da 20",
-          "recupero": "1 Min"
-        },
-        "tapis roulant": {
-          "ripetizioni": "velocità 6 e pendenza 4"
-        }   
+          "ripetizioni": "10 serie da 3 EMOM",
+          "peso": "Da definire"
+        }  
       }
     }
   ]
