@@ -93,79 +93,109 @@
           "peso":"Max 35kg"
         },
         "tapis roulant": {
-          "durata": "15 minuti",
-          "pendenza": "3",
-          "velocità": "7.5"
+          "ripetizioni": "15 minuti",
+          "recupero": "pendenza 3",
+          "peso": "velocità 7.5"
         }
       }
     },
     {
       "giorno":"Seconda giornata",
       "lista": {
-        "spinte manubri panca / row machine": {
-          "ripetizioni":"5 serie da 8,6,6,4,4",
-          "recupero": "1 Min 30 Sec",
-          "peso": "Incrementale"
+        "leg extension": {
+          "ripetizioni": "5/6 serie da 15-20",
+          "recupero": "40 Sec",
+          "peso":"Max 68kg"
         },
-        "chest press": {
-          "ripetizioni":"10 serie da 3 EMOM",
-          "peso": "Max 30kg"
+        "alzate laterali": {
+          "ripetizioni": "5/6 serie da 15-20",
+          "recupero": "40 Sec",
+          "peso":"Max 35kg"
         },
-        "lat machine": {
-          "ripetizioni":"10 serie da 3 EMOM",
-          "peso": "Max 30kg"
+        "leg curl": {
+          "ripetizioni": "5/6 serie da 15-20",
+          "recupero": "40 Sec",
+          "peso":"Max 35kg"
         },
-        "pull down / aperure crossover": {
-          "ripetizioni":"3 serie da 6",
-          "recupero": "1 Min",
-          "peso":"Da definire"
+        "pectoral machine": {
+          "ripetizioni": "5/6 serie da 15-20",
+          "recupero": "40 Sec",
+          "peso":"Max 35kg"
+        },
+        "french press": {
+          "ripetizioni": "5/6 serie da 15-20",
+          "recupero": "40 Sec",
+          "peso":"Max 35kg"
         }
       }
     },
     {
       "giorno":"Terza giornata",
       "lista": {
-        "leg curl / leg extention": {
-          "ripetizioni": "3 serie da 6",
-          "recupero": "1 Min",
-          "peso": "Max 20kg"
+        "pressa": {
+          "ripetizioni": "4/6 serie da 8-10",
+          "recupero": "1 Min 30 Sec",
+          "peso":"Max 68kg"
         },
-        "pressa / panca piana": {
-          "ripetizioni": "5 serie da 8,6,6,4,4", 
-          "recupero": "1 Min e 30 Sec",
-          "peso": "Max 66kg / 25kg"
+        "military press": {
+          "ripetizioni": "4/6 serie da 8-10",
+          "recupero": "1 Min 30 Sec",
+          "peso":"Max 35kg"
         },
-        "hack squat": {
-          "ripetizioni": "10 serie da 3 EMOM",
-          "peso": "Da definire"
+        "lat V": {
+          "ripetizioni": "4/6 serie da 8-10",
+          "recupero": "1 Min 30 Sec",
+          "peso":"Max 35kg"
+        },
+        "chest press": {
+          "ripetizioni": "4/6 serie da 8-10",
+          "recupero": "1 Min 30 Sec",
+          "peso":"Max 35kg"
+        },
+        "curl bilancieri": {
+          "ripetizioni": "4/6 serie da 8-10",
+          "recupero": "1 Min 30 Sec",
+          "peso":"Max 35kg"
+        },
+        "tapis roulant": {
+          "ripetizioni": "15 minuti",
+          "recupero": "pendenza 3",
+          "peso": "velocità 7.8"
         }
       }
     },
     {
       "giorno":"Quarta giornata",
       "lista": {
-        "alzate laterali": {
-          "ripetizioni": "3 serie da 8",
+        "squat": {
+          "ripetizioni": "4/6 serie da 4-6",
+          "recupero": "2 Min",
+          "peso":"Max 20kg"
+        },
+        "panca piana": {
+          "ripetizioni": "4/6 serie da 4-6",
+          "recupero": "2 Min",
+          "peso":"Max 30kg"
+        },
+        "trazioni": {
+          "ripetizioni": "4/6 serie da 4-6",
+          "recupero": "2 Min",
+          "peso":"Max 35kg"
+        },
+        "military press": {
+          "ripetizioni": "4/6 serie da 4-6",
+          "recupero": "2 Min",
+          "peso":"Max 10kg"
+        },
+        "crunch alti": {
+          "ripetizioni": "4 serie da 15",
           "recupero": "1 Min",
-          "peso": "Max 10kg(5kg x 2)"
+          "peso":"Senza peso"
         },
-        "military press / curl": {
-          "ripetizioni": "5 serie da 8,6,6,4,4",
-          "recupero": "1 Min 30 Sec",
-          "peso": "Max 30kg"
-        },
-        "shoulder press": {
-          "ripetizioni": "10 serie da 3 EMOM",
-          "peso": "Max 30kg"
-        },
-        "hammer curl": {
-          "ripetizioni": "10 serie da 3 EMOM",
+        "crunch bassi": {
+          "ripetizioni": "4 serie da 10",
           "recupero": "1 Min",
-          "peso": "Da definire"
-        },
-        "push down corda": {
-          "ripetizioni": "10 serie da 3 EMOM",
-          "peso": "Da definire"
+          "peso": "Senza peso"
         }  
       }
     }
