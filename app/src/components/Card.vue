@@ -140,6 +140,7 @@ export default {
   color: #42b983;
   font-size: 16px;
   font-weight: 600;
+  margin-top: 0;
   text-transform: uppercase;
 }
 
