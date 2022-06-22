@@ -67,20 +67,35 @@
     {
       "giorno":"Prima giornata",
       "lista": {
-        "pressa / panca piana": {
-          "ripetizioni": "5 serie da 6",
-          "recupero": "1 Min",
-          "peso":"Max 68kg / 25kg"
+        "pressa": {
+          "ripetizioni": "5/6 serie da 15-20",
+          "recupero": "40 Sec",
+          "peso":"Max 68kg"
         },
-        "rematore / military press": {
-          "ripetizioni": "5 serie da 6",
-          "recupero": "1 Min",
-          "peso": "Max 20kg / 10kg"
+        "shoulder press": {
+          "ripetizioni": "5/6 serie da 15-20",
+          "recupero": "40 Sec",
+          "peso":"Max 35kg"
         },
-        "curl manubri / push down corda": {
-          "ripetizioni": "3 serie da 6",
-          "recupero": "1 Min",
-          "peso": "Max 10kg / 40kg"
+        "chest press": {
+          "ripetizioni": "5/6 serie da 15-20",
+          "recupero": "40 Sec",
+          "peso":"Max 35kg"
+        },
+        "lat machine": {
+          "ripetizioni": "5/6 serie da 15-20",
+          "recupero": "40 Sec",
+          "peso":"Max 35kg"
+        },
+        "curl manubri": {
+          "ripetizioni": "5/6 serie da 15-20",
+          "recupero": "40 Sec",
+          "peso":"Max 35kg"
+        },
+        "tapis roulant": {
+          "durata": "15 minuti",
+          "pendenza": "3",
+          "velocità": "7.5"
         }
       }
     },
