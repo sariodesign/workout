@@ -1,10 +1,10 @@
 <template>
   <div class="card-container">
     <h2 class="card-title">{{ content.giorno }}</h2>
-    <div class="card-list" v-if="isList">
+    <div class="card-list" v-if="nutrition">
       <div
         class="card-detail"
-        v-for="(value, name, index) in content.lista"
+        v-for="(value, name, index) in content.meals"
         :key="index"
       >
         <h3>{{ name }}</h3>
@@ -37,7 +37,7 @@ export default {
   name: "Card",
   props: {
     content: Object,
-    isList: Boolean,
+    nutrition: Boolean,
     withBg: Boolean,
   },
 };
@@ -50,14 +50,9 @@ export default {
 
 .card-list {
   display: flex;
+  flex-direction: column;
   gap: 20px;
-  overflow-x: scroll;
   padding: 20px;
-}
-
-.card-list::-webkit-scrollbar {
-  display: none;
-  scrollbar-width: none;
 }
 
 .card-item {
@@ -86,12 +81,8 @@ export default {
 }
 
 .card-detail {
-  border-radius: 20px;
-  box-shadow: 0 2px 20px -10px rgb(0 0 0 / 35%);
   background-color: #fff;
   flex: 1 0 auto;
-  padding: 20px;
-  width: 60vw;
 }
 
 .card-detail h3 {

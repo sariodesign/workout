@@ -5,7 +5,7 @@
       v-for="(meal, index) in meals"
       :key="index"
       :content="meal"
-      :isList="true"
+      :nutrition="true"
     />
   </div>
 </template>
@@ -30,6 +30,7 @@ export default {
     GetData.getNutrition()
       .then((response) => {
         this.meals = response.data;
+        console.log(response)
       })
       .catch((error) => {
         console.log("[ERROR]", error);

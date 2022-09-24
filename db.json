@@ -3,21 +3,21 @@
     {
       "day": "lunedì",
       "meals": {
-        "breakfast": [],
-        "morning-snack": [],
-        "lunch": [],
-        "afternoon-snack":[],
-        "dinner": []
+        "breakfast": ["150g yogurt greco 0% senza lattosio", "fette biscottate integrali con marmellata"],
+        "morning snack": ["banana", "10g mandorle"],
+        "lunch": ["100g fesa di tacchino", "200g pomodori insalata", "100g rucola", "15g olio evo", "40g crostino buitoni integrale"],
+        "afternoon snack":["30g parmigiano", "200g succo di frutta", "20g mandorle"],
+        "dinner": ["250g petto di pollo", "200g spinaci (peso crudo/congelato)", "100g pane di segale", "10g olio evo"]
       }
     },
     {
       "day": "martedì",
       "meals": {
-        "breakfast": [],
-        "morning-snack": [],
-        "lunch": [],
-        "afternoon-snack":[],
-        "dinner": []
+        "breakfast": ["200g latte zymil", "2 fette pan bauletto integrale", "20g burro di arachidi"],
+        "morning snack": ["mela annurca", "10g mandorle"],
+        "lunch": ["100g riso basmati", "tonno al naturale (2 scatolette)", "50g rucola", "150g pomodori", "10g olio evo"],
+        "afternoon snack":["caffè", "barretta kellog protein"],
+        "dinner": ["400g merluzzo", "200g fagiolini", "10g olio evo", "50g pane di segale"]
       }
     }
   ],
