@@ -109,7 +109,7 @@
     },
     {
       "day":"Seconda giornata",
-      "lista": {
+      "list": {
         "leg extension": {
           "repeat": "4 serie da 15-20",
           "recovery": "1 Min",
@@ -139,7 +139,7 @@
     },
     {
       "day":"Terza giornata",
-      "lista": {
+      "list": {
         "pressa": {
           "repeat": "4 serie da 10",
           "recovery": "1 Min 30 Sec",
@@ -174,7 +174,7 @@
     },
     {
       "day":"Quarta giornata",
-      "lista": {
+      "list": {
         "squat": {
           "repeat": "5 serie da 6",
           "recovery": "2 Min",

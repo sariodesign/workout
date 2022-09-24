@@ -52,6 +52,7 @@ export default {
         position: relative;
         height: 40px;
         margin-left: auto;
+        margin-right: 20px;
         width: 50%;
         z-index: 2;
     }

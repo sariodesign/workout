@@ -1,6 +1,5 @@
 <template>
   <div class="card-container" :data-day="content.day">
-    <h2 class="card-title">{{ content.day }}</h2>
     <div class="card-list" v-if="nutrition">
       <div
         class="card-detail"
@@ -46,13 +45,13 @@ export default {
 <style scoped>
 .card-container {
   margin-bottom: 20px;
+  padding: 20px;
 }
 
 .card-list {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 20px;
 }
 
 .card-item {
@@ -111,7 +110,7 @@ export default {
   border-radius: 0;
   box-shadow: none;
   box-sizing: border-box;
-  padding: 10px;
+  padding-bottom: 10px;
   width: 100%;
 }
 
