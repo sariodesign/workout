@@ -44,5 +44,6 @@ export default {
   background-color: #fefefe;
   background-size: 80px;
   min-height: 100vh;
+  padding-top: 20px;
 }
 </style>

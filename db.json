@@ -19,6 +19,56 @@
         "afternoon snack":["caffè", "barretta kellog protein"],
         "dinner": ["400g merluzzo", "200g fagiolini", "10g olio evo", "50g pane di segale"]
       }
+    },
+    {
+      "day": "mercoledì",
+      "meals": {
+        "breakfast": ["200g latte zymil", "50g cereali fitness"],
+        "morning snack": ["banana", "10g mandorle"],
+        "lunch": ["80g farro", "uova sode (2 a spicchi)", "50g rucola", "150g pomodori", "20g parmigiano", "10g olio evo"],
+        "afternoon snack":["200g milk protein, crema desseert"],
+        "dinner": ["200g filetto di maiale", "250g broccoletti", "10g olio evo", "100g pane integrale"]
+      }
+    },
+    {
+      "day": "giovedì",
+      "meals": {
+        "breakfast": ["250g latte avena", "fette biscottate integrali con marmellata"],
+        "morning snack": ["pera", "10g mandorle"],
+        "lunch": ["fiocchi di latte magro", "100g insalata iceberg", "40g gallette di riso integrale", "10g olio evo"],
+        "afternoon snack":["150g yogurt greco % senza lattosio", "20g cioccolato fondente"],
+        "dinner": ["70g pasta di semola integrale", "150g ceci", "10g olio evo", "bastoncini di merluzzo (num.4)"]
+      }
+    },
+    {
+      "day": "venerdì",
+      "meals": {
+        "breakfast": ["250g latte avena", "fette biscottate integrali con marmellata"],
+        "morning snack": ["mela", "10g mandorle"],
+        "lunch": ["simmenthal (2 scatolette)", "80g pane azzimo senza lievito", "50g insalata", "10g olio evo"],
+        "afternoon snack":["caffè", "barretta kellog protein"],
+        "dinner": ["1 piadina integrale", "200g petto di pollo", "150g melanzane grigliate", "1 finocchio", "10g olio evo"]
+      }
+    },
+    {
+      "day": "sabato",
+      "meals": {
+        "breakfast": ["150g yogurt greco % senza lattosio", "plumcake misura/scotti", "kiwi (num.2)"],
+        "morning snack": ["caffè", "20g anacardi/nocciole/noci"],
+        "lunch": ["70g pasta di semola integrale", "passata di pomodoro q.b.", "80g bresaola", "10g olio evo"],
+        "afternoon snack":["tisana drenante"],
+        "dinner": ["libero"]
+      }
+    },
+    {
+      "day": "domenica",
+      "meals": {
+        "breakfast": ["250g latte avena", "50g cereali fitness"],
+        "morning snack": ["caffè", "20g anacardi/nocciole/noci"],
+        "lunch": ["250g patate lesse", "250g carne/pesce", "zucchine", "10g olio evo"],
+        "afternoon snack":["mela"],
+        "dinner": ["1 piadina integrale", "50g salmone affumicato", "100g insalata"]
+      }
     }
   ],
   "exercise": [

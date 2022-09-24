@@ -1,15 +1,8 @@
 <template>
   <div class="calendar">
-    <div
-      class="calendar-day"
-      v-for="(day, index) in week"
-      :key="index"
-      @click="select"
-      :data-select="index"
-      :class="{ selected: index === today }"
-    >
-      {{ day }}
-    </div>
+    <select class="calendar-day" @change.self="changeDay">
+      <option v-for="(day, index) in week" :key="index" :value="day" >{{ day }}</option>
+    </select>
   </div>
 </template>
 
@@ -17,42 +10,41 @@
 export default {
   name: "Calendar",
   data() {
-    let date = new Date();
-    let week = ["Dom", "Lun", "Mar", "Mer", "Gio", "Ven", "Sab"];
-    let today = date.getDay();
+    //let date = new Date();
+    let week = ["Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato", "Domenica"];
+    //let today = date.getDay();
     return {
       week,
-      today,
+      //today,
     };
   },
   methods: {
-    select(e) {
-      let daySelect = e.target.dataset.select;
-      let dayNode = document.querySelectorAll(".calendar-day");
-      let listNode = document.querySelectorAll(".card-container");
-      dayNode.forEach((day) => day.classList.remove("selected"));
-      e.target.classList.add("selected");
-      listNode[daySelect].scrollIntoView({
+    changeDay(e) {
+      let daySelect = e.target.value.toLowerCase();
+      let dayListSelected = document.querySelector(".card-container[data-day=" + daySelect + "]");
+      dayListSelected.scrollIntoView({
         behavior: "smooth",
-        block: "center",
+        block: "nearest",
       });
-    },
+    }
   },
 };
 </script>
 
 <style scoped>
 .calendar {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: #fff;
+  bottom: 100px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
-  position: sticky;
-  top: 0;
+  position: fixed;
+  right: 20px;
+  width: fit-content
 }
 
 .calendar-day {
-  padding: 16px 8px;
+  padding: 8px 16px;
+  width: 100%;
 }
 
 .calendar-day.selected {

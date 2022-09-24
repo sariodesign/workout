@@ -1,6 +1,6 @@
 <template>
-  <div class="card-container">
-    <h2 class="card-title">{{ content.giorno }}</h2>
+  <div class="card-container" :data-day="content.day">
+    <h2 class="card-title">{{ content.day }}</h2>
     <div class="card-list" v-if="nutrition">
       <div
         class="card-detail"
