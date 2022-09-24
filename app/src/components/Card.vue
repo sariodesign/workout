@@ -16,17 +16,17 @@
     <div class="card-item" v-else>
       <div
         class="card-detail"
-        v-for="(value, name, index) in content.lista"
+        v-for="(value, name, index) in content.list"
         :key="index"
       >
         <div class="card-detail-exercise">
           <h2 class="card-exercise-name">{{ name }}</h2>
           <div class="card-exercise-detail">
-            <span class="card-exercise-repeat">{{ value.ripetizioni }}</span>
-            <span class="card-exercise-time">{{ value.recupero }}</span>
+            <span class="card-exercise-repeat">{{ value.repeat }}</span>
+            <span class="card-exercise-time">{{ value.recovery }}</span>
           </div>
         </div>
-        <div class="card-detail-weight">{{ value.peso }}</div>
+        <div class="card-detail-weight">{{ value.weight }}</div>
       </div>
     </div>
   </div>

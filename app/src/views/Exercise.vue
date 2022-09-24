@@ -1,5 +1,6 @@
 <template>
   <div class="exercise">
+    <ExerciseDay />
     <Card
       v-for="(exercise, index) in exercises"
       :key="index"
@@ -10,12 +11,14 @@
 
 <script>
 import Card from "@/components/Card.vue";
+import ExerciseDay from "@/components/ExerciseDay.vue";
 import GetData from "@/services/GetData.js";
 
 export default {
   name: "Exercise",
   components: {
     Card,
+    ExerciseDay
   },
   data() {
     return {
@@ -39,6 +42,6 @@ export default {
   background-color: #fefefe;
   background-size: 80px;
   min-height: 100vh;
-  padding: 0 15px;
+  padding: 15px;
 }
 </style>

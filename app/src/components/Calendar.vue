@@ -10,12 +10,9 @@
 export default {
   name: "Calendar",
   data() {
-    //let date = new Date();
     let week = ["Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato", "Domenica"];
-    //let today = date.getDay();
     return {
       week,
-      //today,
     };
   },
   methods: {
