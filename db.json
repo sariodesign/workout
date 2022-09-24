@@ -1,65 +1,23 @@
 {
   "nutrition": [
     {
-      "giorno": "domenica",
-      "lista": {
-        "breakfast": ["1 cornetto vuoto", "130ml di latte"],
-        "lunch": ["80gr pasta", "100gr di macinato", "100gr funghi o piselli", "gnocchi e passata di pomodoro"],
-        "dinner": ["250gr pesce spada o pesce azzurro a piacere", "150gr verdure"]
+      "day": "lunedì",
+      "meals": {
+        "breakfast": [],
+        "morning-snack": [],
+        "lunch": [],
+        "afternoon-snack":[],
+        "dinner": []
       }
     },
     {
-      "giorno": "lunedì",
-      "lista": {
-        "breakfast": ["3 fette biscottate", "20gr marmellata light", "130ml di latte"],
-        "snack": ["80gr di lupini"],
-        "lunch": ["5 crositni buitoni", "120gr prosciutto cotto o crudo", "100gr di ricotta"],
-        "dinner": ["50gr di riso", "300gr di verza o cavolo", "20gr di grana", "150gr merluzzo o petto di pollo"]
-      }
-    },
-    {
-      "giorno": "martedì",
-      "lista": {
-        "breakfast": ["cornetto vuoto","100ml latte", "130gr yougurt magro"],
-        "snack": ["120gr fesa di tacchino"],
-        "lunch": ["140gr di farro precotto al vapore", "100gr pomodorini", "1 cucchiaio EVO"],
-        "dinner": ["frittata con 2 uova", "250ml albume", "2 sottilette light", "100gr insalata iceberg"]
-      }
-    },
-    {
-      "giorno": "mercoledì",
-      "lista": {
-        "breakfast": ["3 fette biscottate", "20gr marmellata light", "100ml di latte"],
-        "snack": ["100gr bresaola"],
-        "lunch": ["300gr chicken salad", "100gr insalata iceberg"],
-        "dinner": ["70gr oriecchette", "300gr broccoli", "10 olive denocciolate"]
-      }
-    },
-    {
-      "giorno": "giovedì",
-      "lista": {
-        "breakfast": ["2 fette biscottate","20gr marmellata light"],
-        "snack": ["130gr yogurt o dessert proteico"],
-        "lunch": ["2 crostini buitoni", "150gr di salmone affumicato", "1 cucchiao EVO"],
-        "dinner": ["60gr riso integrale", "240gr di legumi", "100gr prosciutto sgrassato"]
-      }
-    },
-    {
-      "giorno": "venerdì",
-      "lista": {
-        "breakfast": ["2 fette biscottate", "20gr marmellata light", "15gr mandorle"],
-        "snack": ["130gr di yogurt"],
-        "lunch": ["100gr ricotta", "120gr bresaola", "2 cristini buitoni", "1 uovo"],
-        "dinner": ["240gr di fagioli", "200gr di fagiolini o insalata", "2 scatolette tonno al naturale"]
-      }
-    },
-    {
-      "giorno": "sabato",
-      "lista": {
-        "breakfast": ["2 fette biscottate", "10gr mandorle"],
-        "snack": ["1 mela"],
-        "lunch": ["200gr di spinaci", "frittata con 300ml di albume", "1 uovo", "1 cucchiaio EVO"],
-        "dinner": ["200gr melanzane grigliate", "150gr hamburger di pollo o tacchino", "60gr pane segale", "oppure serata libera"]
+      "day": "martedì",
+      "meals": {
+        "breakfast": [],
+        "morning-snack": [],
+        "lunch": [],
+        "afternoon-snack":[],
+        "dinner": []
       }
     }
   ],
