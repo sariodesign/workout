@@ -1,6 +1,6 @@
 <template>
     <div class="switcher" :class="{ active: isActive }" @click="activeDay">
-        <div class="switch-item" v-for="(item, index) in days" :class="{ current : item.current }" @click="currentDay" :key="index">{{ item.label }}</div>
+        <div class="switch-item" v-for="(item, index) in days" :class="{ current : item.current }" :data-day="item.day" @click="currentDay" :key="index">{{ item.label }}</div>
     </div>
 </template>
 
@@ -11,18 +11,27 @@ export default {
     let days = [
         {
             label: "Primo allenamento",
+            day: 'one',
             current: true
         },
         {
             label: "Secondo allenamento",
+            day: 'two',
             current: false
         },
         {
             label: "Terzo allenamento",
+            day: 'three',
             current: false
         },
         {
             label: "Quarto allenamento",
+            day: 'four',
+            current: false
+        },
+        {
+            label: "Quinto allenamento",
+            day: 'five',
             current: false
         }
     ];
@@ -37,10 +46,15 @@ export default {
         this.isActive = !this.isActive
     },
     currentDay(e) {
-        console.log(e.target)
+        let daySelect = e.target.dataset.day;
         let indexDay = this.days.map(item => item.label).indexOf(e.target.textContent)
         this.days.forEach(item => item.current = false)
         this.days[indexDay].current = true
+        let dayListSelected = document.querySelector(".card-container[data-day=" + daySelect + "]");
+        dayListSelected.scrollIntoView({
+            behavior: "smooth",
+            block: "nearest",
+        });
     }
   },
 };
