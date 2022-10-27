@@ -73,7 +73,7 @@
   ],
   "exercise": [
     {
-      "day":"Prima giornata",
+      "day":"one",
       "list": {
         "trazioni": {
           "repeat": "5 serie da 5",
@@ -113,7 +113,7 @@
       }
     },
     {
-      "day":"Seconda giornata",
+      "day":"two",
       "list": {
         "military press": {
           "repeat": "5 serie da 5",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "day":"Terza giornata",
+      "day":"three",
       "list": {
         "squat": {
           "repeat": "5 serie da 5",
@@ -178,7 +178,7 @@
       }
     },
     {
-      "day":"Quarta giornata",
+      "day":"four",
       "list": {
         "tapis roulant": {
           "repeat": "40 minuti",
@@ -193,7 +193,7 @@
       }
     },
     {
-      "day":"Quinta giornata",
+      "day":"five",
       "list": {
         "panca piana": {
           "repeat": "5 serie da 5",
