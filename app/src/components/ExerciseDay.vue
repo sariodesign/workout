@@ -49,17 +49,17 @@ export default {
 <style>
     .switcher {
         background-color: transparent;
-        position: relative;
+        bottom: 110px;
         height: 40px;
-        margin-left: auto;
-        margin-right: 20px;
+        position: fixed;
+        right: 20px;
         width: 50%;
         z-index: 2;
     }
 
     .switcher.active {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .switcher.active .switch-item {

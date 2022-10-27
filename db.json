@@ -75,95 +75,70 @@
     {
       "day":"Prima giornata",
       "list": {
-        "leg press": {
-          "repeat": "4 serie da 15-20",
-          "recovery": "1 min",
-          "weight":"Max 68kg"
-        },
-        "shoulder press": {
-          "repeat": "4 serie da 15-20",
-          "recovery": "1 Min",
-          "weight":"Max 35kg"
-        },
-        "chest press": {
-          "repeat": "4 serie da 15-20",
-          "recovery": "1 Min",
-          "weight":"Max 35kg"
+        "trazioni": {
+          "repeat": "5 serie da 5",
+          "recovery": "2min 30sec",
+          "weight":"Peso massimo"
         },
         "lat machine": {
-          "repeat": "4 serie da 15-20",
-          "recovery": "1 Min",
-          "weight":"Max 35kg"
+          "repeat": "3 serie da 8",
+          "recovery": "1min 30sec",
+          "weight":"Peso massimo"
         },
-        "curl manubri": {
-          "repeat": "4 serie da 15-20",
-          "recovery": "1 Min",
-          "weight":"Max 35kg"
+        "pull down": {
+          "repeat": "3 serie da 8",
+          "recovery": "1min 30sec",
+          "weight":"Peso massimo"
         },
-        "tapis roulant": {
-          "repeat": "15 minuti",
-          "recovery": "pendenza 3",
-          "weight": "velocità 7.5"
+        "pulley": {
+          "repeat": "3 serie da 8",
+          "recovery": "1min 30sec",
+          "weight":"Peso massimo"
+        },
+        "rematore con manubrio": {
+          "repeat": "3 serie da 8",
+          "recovery": "1min 30sec",
+          "weight":"Peso massimo"
+        },
+        "curl bilancieri EZ": {
+          "repeat": "3 serie da 8",
+          "recovery": "1min 30sec",
+          "weight":"Peso massimo"
+        },
+        "curl su panca inclinata": {
+          "repeat": "3 serie da 8",
+          "recovery": "1min 30sec",
+          "weight":"Peso massimo"
         }
       }
     },
     {
       "day":"Seconda giornata",
       "list": {
-        "leg extension": {
-          "repeat": "4 serie da 15-20",
-          "recovery": "1 Min",
-          "weight":"Max 68kg"
+        "military press": {
+          "repeat": "5 serie da 5",
+          "recovery": "2min 30sec",
+          "weight":"Peso massimo"
+        },
+        "spinte con manubri": {
+          "repeat": "3 serie da 8",
+          "recovery": "1min 30sec",
+          "weight":"Peso massimo"
         },
         "alzate laterali": {
-          "repeat": "4 serie da 15-20",
-          "recovery": "1 Min",
-          "weight":"Max 35kg"
+          "repeat": "3 serie da 8",
+          "recovery": "1min 30sec30sec",
+          "weight":"Peso massimo"
         },
-        "leg curl": {
-          "repeat": "4 serie da 15-20",
-          "recovery": "1 Min",
-          "weight":"Max 35kg"
+        "tirate al mento": {
+          "repeat": "3 serie da 10",
+          "recovery": "1min 30sec",
+          "weight":"Peso massimo"
         },
-        "pectoral machine": {
-          "repeat": "4 serie da 15-20",
-          "recovery": "1 Min",
-          "weight":"Max 35kg"
-        },
-        "french press": {
-          "repeat": "4 serie da 15-20",
-          "recovery": "1 Min",
-          "weight":"Max 35kg"
-        }
-      }
-    },
-    {
-      "day":"Terza giornata",
-      "list": {
-        "pressa": {
-          "repeat": "4 serie da 10",
-          "recovery": "1 Min 30 Sec",
-          "weight":"Max 68kg"
-        },
-        "military press": {
-          "repeat": "4 serie da 10",
-          "recovery": "1 Min 30 Sec",
-          "weight":"Max 35kg"
-        },
-        "lat V": {
-          "repeat": "4 serie da 10",
-          "recovery": "1 Min 30 Sec",
-          "weight":"Max 35kg"
-        },
-        "chest press": {
-          "repeat": "4 serie da 10",
-          "recovery": "1 Min 30 Sec",
-          "weight":"Max 35kg"
-        },
-        "curl bilancieri": {
-          "repeat": "4 serie da 10",
-          "recovery": "1 Min 30 Sec",
-          "weight":"Max 35kg"
+        "crunch": {
+          "repeat": "3 serie da 20",
+          "recovery": "45sec",
+          "weight":"Peso massimo"
         },
         "tapis roulant": {
           "repeat": "15 minuti",
@@ -173,37 +148,77 @@
       }
     },
     {
-      "day":"Quarta giornata",
+      "day":"Terza giornata",
       "list": {
         "squat": {
-          "repeat": "5 serie da 6",
-          "recovery": "2 Min",
-          "weight":"Max 20kg"
+          "repeat": "5 serie da 5",
+          "recovery": "2min 30sec",
+          "weight":"Peso massimo"
         },
+        "leg press": {
+          "repeat": "3 serie da 10",
+          "recovery": "1min 30sec",
+          "weight":"Peso massimo"
+        },
+        "affondo in camminata": {
+          "repeat": "3 serie da 10",
+          "recovery": "1min 30sec",
+          "weight":"Peso massimo"
+        },
+        "ss leg curl - leg extention": {
+          "repeat": "3 serie da 10",
+          "recovery": "1min 30sec",
+          "weight":"Peso massimo"
+        },
+        "culf": {
+          "repeat": "100",
+          "recovery": "Senza recupero",
+          "weight":"Peso massimo"
+        }
+      }
+    },
+    {
+      "day":"Quarta giornata",
+      "list": {
+        "tapis roulant": {
+          "repeat": "40 minuti",
+          "recovery": "pendenza 3",
+          "weight": "velocità 7.8"
+        },
+        "plank": {
+          "repeat": "3 serie da 45sec",
+          "recovery": "1min",
+          "weight":"Peso massimo"
+        }  
+      }
+    },
+    {
+      "day":"Quinta giornata",
+      "list": {
         "panca piana": {
-          "repeat": "5 serie da 66",
-          "recovery": "2 Min",
-          "weight":"Max 30kg"
+          "repeat": "5 serie da 5",
+          "recovery": "2min 30sec",
+          "weight":"Peso massimo"
         },
-        "trazioni": {
-          "repeat": "5 serie da 6",
-          "recovery": "2 Min",
-          "weight":"Max 35kg"
+        "panca inclinata manubri": {
+          "repeat": "3 serie da 10",
+          "recovery": "1min 30sec",
+          "weight":"Peso massimo"
         },
-        "military press": {
-          "repeat": "5 serie da 6",
-          "recovery": "2 Min",
-          "weight":"Max 10kg"
+        "butterfly petto": {
+          "repeat": "3 serie da 10",
+          "recovery": "1min 30sec",
+          "weight":"Peso massimo"
         },
-        "crunch alti": {
-          "repeat": "4 serie da 20",
-          "recovery": "1 Min",
-          "weight": "No weight"
+        "french press": {
+          "repeat": "3 serie da 10",
+          "recovery": "1min 30sec",
+          "weight":"Peso massimo"
         },
-        "crunch bassi": {
-          "repeat": "4 serie da 20",
-          "recovery": "1 Min",
-          "weight": "No weight"
+        "push down cavi": {
+          "repeat": "3 serie da 10",
+          "recovery": "1min 30sec",
+          "weight":"Peso massimo"
         }  
       }
     }
