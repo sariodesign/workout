@@ -75,151 +75,156 @@
     {
       "day":"one",
       "list": {
-        "trazioni": {
-          "repeat": "5 serie da 5",
-          "recovery": "2min 30sec",
-          "weight":"Peso massimo"
+        "Distensioni panca inclinata": {
+          "repeat": "3 serie da 8/6/4",
+          "recovery": "90sec",
+          "weight":"Peso incrementale"
         },
-        "lat machine": {
-          "repeat": "3 serie da 8",
-          "recovery": "1min 30sec",
-          "weight":"Peso massimo"
+        "SS Push up / Croci ai cavi": {
+          "repeat": "3 serie max + 8",
+          "recovery": "90sec",
+          "weight":"Peso bilanciato"
         },
-        "pull down": {
-          "repeat": "3 serie da 8",
-          "recovery": "1min 30sec",
-          "weight":"Peso massimo"
+        "Chest press": {
+          "repeat": "3 serie da 8/6/4",
+          "recovery": "60sec",
+          "weight":"Peso incrementale"
         },
-        "pulley": {
-          "repeat": "3 serie da 8",
-          "recovery": "1min 30sec",
-          "weight":"Peso massimo"
+        "Distensioni panca piana": {
+          "repeat": "3 serie da 10",
+          "recovery": "60sec",
+          "weight":"Peso costante"
         },
-        "rematore con manubrio": {
-          "repeat": "3 serie da 8",
-          "recovery": "1min 30sec",
-          "weight":"Peso massimo"
+        "Ellittica": {
+          "repeat": "10 minuti",
+          "recovery": "",
+          "weight":"Livello 5-7"
         },
-        "curl bilancieri EZ": {
-          "repeat": "3 serie da 8",
-          "recovery": "1min 30sec",
-          "weight":"Peso massimo"
+        "Curl panca scott": {
+          "repeat": "3 serie da 8/6/4",
+          "recovery": "90sec",
+          "weight":"Peso incrementale"
         },
-        "curl su panca inclinata": {
+        "Curl alternato su panca 70°": {
           "repeat": "3 serie da 8",
-          "recovery": "1min 30sec",
-          "weight":"Peso massimo"
+          "recovery": "60sec",
+          "weight":"Peso costante"
+        },
+        "Curl cavo basso sbarra": {
+          "repeat": "3 serie da 10",
+          "recovery": "60sec",
+          "weight":"Peso costante"
         }
       }
     },
     {
       "day":"two",
       "list": {
-        "military press": {
-          "repeat": "5 serie da 5",
-          "recovery": "2min 30sec",
-          "weight":"Peso massimo"
+        "Lat machine avanti": {
+          "repeat": "3 serie da 8/6/4",
+          "recovery": "90sec",
+          "weight":"Peso incrementale"
         },
-        "spinte con manubri": {
-          "repeat": "3 serie da 8",
-          "recovery": "1min 30sec",
-          "weight":"Peso massimo"
-        },
-        "alzate laterali": {
-          "repeat": "3 serie da 8",
-          "recovery": "1min 30sec30sec",
-          "weight":"Peso massimo"
-        },
-        "tirate al mento": {
+        "Trazioni avanti": {
           "repeat": "3 serie da 10",
-          "recovery": "1min 30sec",
-          "weight":"Peso massimo"
+          "recovery": "90sec",
+          "weight":"Peso costante"
         },
-        "crunch": {
-          "repeat": "3 serie da 20",
-          "recovery": "45sec",
-          "weight":"Peso massimo"
+        "SS Lat machine presa inversa / Pulley": {
+          "repeat": "3 serie da 10 + 8",
+          "recovery": "90sec",
+          "weight":"Peso costante"
         },
-        "tapis roulant": {
-          "repeat": "15 minuti",
-          "recovery": "pendenza 3",
-          "weight": "velocità 7.8"
+        "Rematore panca singolo": {
+          "repeat": "3 serie da 8",
+          "recovery": "60sec",
+          "weight":"Peso costante"
+        },
+        "Step": {
+          "repeat": "10 minuti",
+          "recovery": "",
+          "weight":"Livello 5-7"
+        },
+        "French press": {
+          "repeat": "3 serie da 8/6/4",
+          "recovery": "90sec",
+          "weight": "Peso incrementale"
+        },
+        "SS Push down / Spinte su panca": {
+          "repeat": "3 serie da 10 + max",
+          "recovery": "90sec",
+          "weight": "Peso incrementale"
         }
       }
     },
     {
       "day":"three",
       "list": {
-        "squat": {
-          "repeat": "5 serie da 5",
-          "recovery": "2min 30sec",
-          "weight":"Peso massimo"
+        "Scated leg press": {
+          "repeat": "3 serie da 8/6/4",
+          "recovery": "90sec",
+          "weight":"Peso incrementale"
         },
-        "leg press": {
+        "Leg extension una gamba": {
+          "repeat": "3 serie da 8/6/4",
+          "recovery": "90sec",
+          "weight":"Peso incrementale"
+        },
+        "Leg curl": {
+          "repeat": "3 serie da 8/6/4",
+          "recovery": "90sec",
+          "weight":"Peso incrementale"
+        },
+        "Affondi posteriori con manubri": {
+          "repeat": "3 serie da 8",
+          "recovery": "60sec",
+          "weight":"Peso costante"
+        },
+        "Bike": {
+          "repeat": "10 minuti",
+          "recovery": "",
+          "weight":"Livello 3-4"
+        },
+        "Lento manubri": {
+          "repeat": "3 serie da 8/6/4",
+          "recovery": "90sec",
+          "weight":"Peso incrementale"
+        },
+        "Alzate laterali": {
           "repeat": "3 serie da 10",
-          "recovery": "1min 30sec",
-          "weight":"Peso massimo"
+          "recovery": "60sec",
+          "weight":"Peso costante"
         },
-        "affondo in camminata": {
+        "Shoulder press": {
+          "repeat": "3 serie da 8/6/4",
+          "recovery": "90sec",
+          "weight":"Peso incrementale"
+        },
+        "Alzate posteriori su panca 45°": {
           "repeat": "3 serie da 10",
-          "recovery": "1min 30sec",
-          "weight":"Peso massimo"
+          "recovery": "60sec",
+          "weight":"Peso costante"
         },
-        "ss leg curl - leg extention": {
-          "repeat": "3 serie da 10",
-          "recovery": "1min 30sec",
-          "weight":"Peso massimo"
+        "Tris addominali": {
+          "repeat": "Crunch - Reverse - Plank 30sec X 3",
+          "recovery": "40sec",
+          "weight":""
         },
-        "culf": {
-          "repeat": "100",
-          "recovery": "Senza recupero",
-          "weight":"Peso massimo"
+        "Russian twist": {
+          "repeat": "3 serie da 30sec",
+          "recovery": "60sec",
+          "weight": "Peso costante"
+        },
+        "Circonduzione bastone": {
+          "repeat": "3 serie da 12",
+          "recovery": "60sec",
+          "weight": ""
+        },
+        "Bird dog": {
+          "repeat":"3 serie da 10 per gamba",
+          "recovery": "60sec",
+          "weight":""
         }
-      }
-    },
-    {
-      "day":"four",
-      "list": {
-        "tapis roulant": {
-          "repeat": "40 minuti",
-          "recovery": "pendenza 3",
-          "weight": "velocità 7.8"
-        },
-        "plank": {
-          "repeat": "3 serie da 45sec",
-          "recovery": "1min",
-          "weight":"Peso massimo"
-        }  
-      }
-    },
-    {
-      "day":"five",
-      "list": {
-        "panca piana": {
-          "repeat": "5 serie da 5",
-          "recovery": "2min 30sec",
-          "weight":"Peso massimo"
-        },
-        "panca inclinata manubri": {
-          "repeat": "3 serie da 10",
-          "recovery": "1min 30sec",
-          "weight":"Peso massimo"
-        },
-        "butterfly petto": {
-          "repeat": "3 serie da 10",
-          "recovery": "1min 30sec",
-          "weight":"Peso massimo"
-        },
-        "french press": {
-          "repeat": "3 serie da 10",
-          "recovery": "1min 30sec",
-          "weight":"Peso massimo"
-        },
-        "push down cavi": {
-          "repeat": "3 serie da 10",
-          "recovery": "1min 30sec",
-          "weight":"Peso massimo"
-        }  
       }
     }
   ]
