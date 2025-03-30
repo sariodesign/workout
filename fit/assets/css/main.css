@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: 'Teko', sans-serif;
+  --font-body: 'Poppins', sans-serif;
+  --color-accent-primary: #5E35B1;
+  --color-accent-secondary: #03A9F4;
+  --color-paragraph: #37474F;
+}
