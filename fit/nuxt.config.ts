@@ -15,5 +15,6 @@ export default defineNuxtConfig({
       weights: [400, 700],
       styles: ['normal', 'italic']
     },
-  }
+  },
+  ssr: true
 })
