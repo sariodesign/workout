@@ -402,6 +402,7 @@ const LIMITS = Object.freeze({
 const RING_RADIUS = 138;
 const RING_CIRCUMFERENCE = 2 * Math.PI * RING_RADIUS;
 const PREFERENCES_STORAGE_KEY = "workout-timer-feedback";
+const FINISH_AUDIO_PATH = process.env.BASE_URL + "finish.mp3";
 const NEXT_SET_CUE_DELAY = 320;
 
 const REST_START_CUE = Object.freeze([
@@ -563,6 +564,7 @@ export default {
       session: createIdleSession(config),
       tickHandle: null,
       audioContext: null,
+      finishAudio: null,
       pendingCueIds: [],
       ringRadius: RING_RADIUS,
       ringCircumference: RING_CIRCUMFERENCE,
@@ -771,6 +773,7 @@ export default {
 
       if (key === "soundEnabled" && nextValue) {
         this.ensureAudioContext();
+        this.ensureFinishAudio();
       }
 
       this.preferences = {
@@ -778,6 +781,10 @@ export default {
         [key]: nextValue,
       };
       this.persistPreferences();
+
+      if (key === "soundEnabled" && !nextValue) {
+        this.stopFinishAudio();
+      }
 
       if (key === "vibrationEnabled" && !nextValue) {
         this.cancelVibration();
@@ -803,6 +810,27 @@ export default {
       }
 
       return this.audioContext;
+    },
+    ensureFinishAudio() {
+      if (typeof window === "undefined") {
+        return null;
+      }
+
+      if (!this.finishAudio) {
+        this.finishAudio = new Audio(FINISH_AUDIO_PATH);
+        this.finishAudio.preload = "auto";
+        this.finishAudio.volume = 0.9;
+      }
+
+      return this.finishAudio;
+    },
+    stopFinishAudio() {
+      if (!this.finishAudio) {
+        return;
+      }
+
+      this.finishAudio.pause();
+      this.finishAudio.currentTime = 0;
     },
     playCue(steps) {
       if (!this.preferences.soundEnabled) {
@@ -860,8 +888,35 @@ export default {
       this.playCue(WORK_START_CUE);
       this.triggerVibration(WORK_VIBRATION_PATTERN);
     },
+    playFinishJingle() {
+      if (!this.preferences.soundEnabled) {
+        return false;
+      }
+
+      const audio = this.ensureFinishAudio();
+
+      if (!audio) {
+        return false;
+      }
+
+      this.stopFinishAudio();
+      const playPromise = audio.play();
+
+      if (playPromise && typeof playPromise.catch === "function") {
+        playPromise.catch(() => {
+          this.playCue(WORKOUT_DONE_CUE);
+        });
+      }
+
+      return true;
+    },
     playWorkoutDoneCue() {
-      this.playCue(WORKOUT_DONE_CUE);
+      const jingleStarted = this.playFinishJingle();
+
+      if (!jingleStarted) {
+        this.playCue(WORKOUT_DONE_CUE);
+      }
+
       this.triggerVibration(DONE_VIBRATION_PATTERN);
     },
     queueWorkStartCue(delayMs) {
@@ -975,6 +1030,8 @@ export default {
       const workMs = this.config.work * 1000;
 
       this.ensureAudioContext();
+      this.ensureFinishAudio();
+      this.stopFinishAudio();
       this.clearPendingCues();
       this.cancelVibration();
       this.screen = "session";
@@ -1000,6 +1057,7 @@ export default {
         this.session.isRunning = false;
         this.clearTicker();
         this.clearPendingCues();
+        this.stopFinishAudio();
         this.cancelVibration();
         return;
       }
@@ -1018,6 +1076,7 @@ export default {
     stopWorkout() {
       this.clearTicker();
       this.clearPendingCues();
+      this.stopFinishAudio();
       this.cancelVibration();
       this.screen = "setup";
       this.session = createIdleSession(this.config);
@@ -1025,6 +1084,7 @@ export default {
     resetConfig() {
       this.clearTicker();
       this.clearPendingCues();
+      this.stopFinishAudio();
       this.cancelVibration();
       this.screen = "setup";
       this.config = { ...DEFAULT_CONFIG };
@@ -1034,6 +1094,7 @@ export default {
   beforeUnmount() {
     this.clearTicker();
     this.clearPendingCues();
+    this.stopFinishAudio();
     this.cancelVibration();
 
     if (this.audioContext && this.audioContext.state !== "closed") {
