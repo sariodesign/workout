@@ -1,49 +1,53 @@
 <template>
-  <div id="app-container">
-    <router-view />
-    <div id="nav" class="tab-navigation">
-      <router-link to="/">Alimentazione</router-link>
-      <router-link to="/exercise">Esercizi</router-link>
-    </div>
-  </div>
+  <router-view />
 </template>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&display=swap");
+
+:root {
+  --app-bg: #04170e;
+  --app-panel: rgba(13, 39, 25, 0.9);
+  --app-panel-strong: rgba(10, 31, 20, 0.94);
+  --app-border: rgba(72, 255, 142, 0.16);
+  --app-text: #eff7f0;
+  --app-muted: #8da294;
+  --app-accent: #1ff25f;
+  --app-accent-soft: rgba(31, 242, 95, 0.3);
+  --app-rest: #8ca0c9;
+  --app-track: #142d20;
+  --app-track-dark: #12233f;
+  --app-shadow: 0 22px 60px rgba(0, 0, 0, 0.34);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  min-height: 100%;
+}
 
 body {
   margin: 0;
-}
-
-#app {
-  font-family: "Kanit", Helvetica, Arial, sans-serif;
+  background: radial-gradient(
+      circle at top,
+      rgba(24, 109, 57, 0.22),
+      transparent 30%
+    ),
+    linear-gradient(180deg, #04150d 0%, #021108 100%);
+  color: var(--app-text);
+  font-family: "Space Grotesk", "Kanit", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' style='margin: auto; background: rgb(255, 255, 255); display: block; shape-rendering: auto;' width='200px' height='200px' viewBox='0 0 100 100' preserveAspectRatio='xMidYMid'%3E%3Cg transform='rotate(0 50 50)'%3E%3Crect x='48.5' y='24' rx='0' ry='0' width='3' height='12' fill='%2342b983'%3E%3Canimate attributeName='opacity' values='1;0' keyTimes='0;1' dur='1s' begin='-0.9166666666666666s' repeatCount='indefinite'%3E%3C/animate%3E%3C/rect%3E%3C/g%3E%3Cg transform='rotate(30 50 50)'%3E%3Crect x='48.5' y='24' rx='0' ry='0' width='3' height='12' fill='%2342b983'%3E%3Canimate attributeName='opacity' values='1;0' keyTimes='0;1' dur='1s' begin='-0.8333333333333334s' repeatCount='indefinite'%3E%3C/animate%3E%3C/rect%3E%3C/g%3E%3Cg transform='rotate(60 50 50)'%3E%3Crect x='48.5' y='24' rx='0' ry='0' width='3' height='12' fill='%2342b983'%3E%3Canimate attributeName='opacity' values='1;0' keyTimes='0;1' dur='1s' begin='-0.75s' repeatCount='indefinite'%3E%3C/animate%3E%3C/rect%3E%3C/g%3E%3Cg transform='rotate(90 50 50)'%3E%3Crect x='48.5' y='24' rx='0' ry='0' width='3' height='12' fill='%2342b983'%3E%3Canimate attributeName='opacity' values='1;0' keyTimes='0;1' dur='1s' begin='-0.6666666666666666s' repeatCount='indefinite'%3E%3C/animate%3E%3C/rect%3E%3C/g%3E%3Cg transform='rotate(120 50 50)'%3E%3Crect x='48.5' y='24' rx='0' ry='0' width='3' height='12' fill='%2342b983'%3E%3Canimate attributeName='opacity' values='1;0' keyTimes='0;1' dur='1s' begin='-0.5833333333333334s' repeatCount='indefinite'%3E%3C/animate%3E%3C/rect%3E%3C/g%3E%3Cg transform='rotate(150 50 50)'%3E%3Crect x='48.5' y='24' rx='0' ry='0' width='3' height='12' fill='%2342b983'%3E%3Canimate attributeName='opacity' values='1;0' keyTimes='0;1' dur='1s' begin='-0.5s' repeatCount='indefinite'%3E%3C/animate%3E%3C/rect%3E%3C/g%3E%3Cg transform='rotate(180 50 50)'%3E%3Crect x='48.5' y='24' rx='0' ry='0' width='3' height='12' fill='%2342b983'%3E%3Canimate attributeName='opacity' values='1;0' keyTimes='0;1' dur='1s' begin='-0.4166666666666667s' repeatCount='indefinite'%3E%3C/animate%3E%3C/rect%3E%3C/g%3E%3Cg transform='rotate(210 50 50)'%3E%3Crect x='48.5' y='24' rx='0' ry='0' width='3' height='12' fill='%2342b983'%3E%3Canimate attributeName='opacity' values='1;0' keyTimes='0;1' dur='1s' begin='-0.3333333333333333s' repeatCount='indefinite'%3E%3C/animate%3E%3C/rect%3E%3C/g%3E%3Cg transform='rotate(240 50 50)'%3E%3Crect x='48.5' y='24' rx='0' ry='0' width='3' height='12' fill='%2342b983'%3E%3Canimate attributeName='opacity' values='1;0' keyTimes='0;1' dur='1s' begin='-0.25s' repeatCount='indefinite'%3E%3C/animate%3E%3C/rect%3E%3C/g%3E%3Cg transform='rotate(270 50 50)'%3E%3Crect x='48.5' y='24' rx='0' ry='0' width='3' height='12' fill='%2342b983'%3E%3Canimate attributeName='opacity' values='1;0' keyTimes='0;1' dur='1s' begin='-0.16666666666666666s' repeatCount='indefinite'%3E%3C/animate%3E%3C/rect%3E%3C/g%3E%3Cg transform='rotate(300 50 50)'%3E%3Crect x='48.5' y='24' rx='0' ry='0' width='3' height='12' fill='%2342b983'%3E%3Canimate attributeName='opacity' values='1;0' keyTimes='0;1' dur='1s' begin='-0.08333333333333333s' repeatCount='indefinite'%3E%3C/animate%3E%3C/rect%3E%3C/g%3E%3Cg transform='rotate(330 50 50)'%3E%3Crect x='48.5' y='24' rx='0' ry='0' width='3' height='12' fill='%2342b983'%3E%3Canimate attributeName='opacity' values='1;0' keyTimes='0;1' dur='1s' begin='0s' repeatCount='indefinite'%3E%3C/animate%3E%3C/rect%3E%3C/g%3E%3C!-- %5Bldio%5D generated by https://loading.io/ --%3E%3C/svg%3E");
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
-.tab-navigation {
-  background-color: #fff;
-  bottom: 0;
-  box-shadow: 0 -1px 15px -10px rgba(0, 0, 0, 0.75);
-  display: flex;
-  position: sticky;
-}
-
-.tab-navigation a {
-  color: #2c3e50;
-  font-weight: 500;
-  padding: 30px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  width: 100%;
-}
-
-.tab-navigation a.router-link-exact-active {
-  box-shadow: inset 0 -8px 0px -1px;
-  color: #42b983;
+button,
+input,
+textarea,
+select {
+  font: inherit;
 }
 </style>

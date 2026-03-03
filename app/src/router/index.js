@@ -1,20 +1,15 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Nutrition from "../views/Nutrition.vue";
+import Exercise from "../views/Exercise.vue";
 
 const routes = [
   {
     path: "/",
-    name: "Nutrition",
-    component: Nutrition,
+    name: "WorkoutTimer",
+    component: Exercise,
   },
   {
     path: "/exercise",
-    name: "Exercise",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/Exercise.vue"),
+    redirect: "/",
   },
 ];
 
